@@ -1,0 +1,29 @@
+BEGIN main
+
+    DECLARE firstName, lastName, streetAddress, city, zipCode AS STRING
+
+    OUTPUT "Enter the first name: "
+    INPUT firstName
+
+    OUTPUT "Enter the last name: "
+    INPUT lastName
+
+    OUTPUT "Enter the street address: "
+    INPUT streetAddress
+
+    OUTPUT "Enter the city: "
+    INPUT city
+
+    OUTPUT "Enter the zip code: "
+    INPUT zipCode
+
+    OUTPUT "\nFictional Person Information:\n"
+    OUTPUT "First Name: " + firstName
+    OUTPUT "Last Name: " + lastName
+    OUTPUT "Street Address: " + streetAddress
+    OUTPUT "City: " + city
+    OUTPUT "Zip Code: " + zipCode
+
+    RETURN 0
+
+END main
